@@ -1,0 +1,32 @@
+[package]
+name = "egui-tutorial"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.28.1"
+egui = "0.28.1"
+
+[[bin]]
+name = "label"
+path = "src/label.rs"
+
+[[bin]]
+name = "sidepanel"
+path = "src/side_panel.rs"
+
+[[bin]]
+name = "button"
+path = "src/button.rs"
+
+[[bin]]
+name = "windowmenu"
+path = "src/win_main.rs"
+
+[[bin]]
+name = "menu"
+path = "src/menu.rs"
+
+[[bin]]
+name = "set_visuals"
+path = "src/customize_visuals.rs"
