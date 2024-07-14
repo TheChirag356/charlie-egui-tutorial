@@ -30,3 +30,7 @@ path = "src/menu.rs"
 [[bin]]
 name = "set_visuals"
 path = "src/customize_visuals.rs"
+
+[[bin]]
+name = "panelsmenu"
+path = "src/panels.rs"
